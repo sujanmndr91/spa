@@ -1,0 +1,196 @@
+@media (max-width: 767px) {
+    h1 {
+        font-size: 1.9rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.2rem;
+    }
+    h4 {
+        font-size: 1.1rem;
+        line-height: 1.4;
+    }
+    /* index  */
+    .burger {
+        left: 10px !important;
+    }
+    /* .logo.affix {
+        padding: 10px 0 !important;
+    } */
+    #navWrap nav ul.main li a {
+        font-size: 1.2rem !important;
+    }
+    .burger {
+        top: 15px !important;
+    }
+    .burger.affix {
+        top: 10px !important;
+    }
+    .bannerText h2 {
+        font-size: 28px;
+    }
+    .bannerCov {
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .bannerText h1 {
+        font-size: 55px;
+    }
+    .bannerText p, .bannerbtn .viewBtn {
+        font-size: 18px;
+        display: none;
+    }
+    .bannerText {
+        height: auto;
+    }
+    .logo h3 {
+        /* padding: 12px 0 !important; */
+        margin-left: 55px !important;
+    }
+    #mainNav {
+        display: none;
+    }
+    #navWrap nav {
+        padding-top: 100px;
+    }
+    .teamBox {
+        height: 200px;
+    }
+    .teamBox-back h3{
+        font-size: 15px;
+      }
+      .teamBox-back h4{
+        font-size: 13px;
+      }
+      .teamBox-back p{
+        font-size: 13px;
+      }
+    #teamWrap .team {
+        padding: 25px 15px;
+    }
+    #servicesWrap img {
+        height: 208px;
+    }
+    .servText {
+        padding: 40px;
+        padding-top: 30px;
+    }
+    #servNav {
+        display: none;
+    }
+    .servText h2:after {
+        font-size: 4rem;
+        top: -40px;
+        left: -23px;
+    }
+    .servText h2 {
+        font-size: 1.6rem;
+    }
+    .service-section {
+        margin: 0;
+    }
+    .detail {
+        margin-bottom: 30px;
+    }
+    #contactWrap {
+        padding: 40px 0;
+    }
+    .contactDivider {
+        margin: 20px 0;
+    }
+    .detailCov h1 {
+        font-size: 1.5rem;
+    }
+    #navWrap nav ul.main {
+        padding-left: 20px;
+    }
+    #navWrap nav ul.main li {
+        margin-bottom: 15px !important;
+    }
+    .viewBtn {
+        padding: 9px 14px;
+        font-size: 15px;
+    }
+    #teamWrap {
+        padding: 30px 0 !important;
+    }
+    .teamBox {
+        margin-bottom: 20px !important;
+    }
+    .teamGap:nth-child(odd){
+        padding-left: 10px;
+    }
+    .teamGap:nth-child(even){
+        padding-right: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    .service-section:nth-child(even) .servImg {
+        order: 2;
+    }
+    .service {
+        padding: 0 85px 0 45px;
+    }
+    .service-section {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+    h1 {
+        font-size: 1.9rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.2rem;
+    }
+    h4 {
+        font-size: 1.1rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    /* index  */
+    .logo h3 {
+        margin-left: 80px !important;
+    }
+    #contactWrap h3 {
+        font-size: 24px !important;
+    }
+    .detail h3:before, .entry h3:before, .detail h3:after, .entry h3:after {
+        font-size: 3.6rem !important;
+    }
+    .service-section {
+        height: 50vh !important;
+    }
+    #contactWrap {
+        min-height: 50vh;
+        padding: 100px 0;
+    }
+    .detailCov h1 {
+        font-size: 1.6rem;
+    }
+    #servicesWrap aside {
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1365px) {
+    .container {
+        padding: 0 12%;
+    }
+    #contactWrap {
+        min-height: 50vh;
+        padding: 100px 0;
+    }
+}
