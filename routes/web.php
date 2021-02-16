@@ -28,6 +28,13 @@ Route::post('/login', 'Auth\LoginController@store');
 // Logout
 Route::post('/logout', 'Auth\LoginController@logout');
 
+// Route for Banner
+Route::get('/', 'BannerController@index'); //Front end display
+
+Route::get('/admin/banner', 'BannerController@show');
+Route::get('/admin/banner/update/{id}', 'BannerController@edit');
+Route::put('/admin/banner/update/{id}', 'BannerController@update');
+
 
 
 // Go to main index after login

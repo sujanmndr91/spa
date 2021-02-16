@@ -67,12 +67,11 @@
             <div class="container">
               <div class="row">
                 <div class="col-sm-8 bannerText">
-                  <h1>UX</h1>
-                  <h2>User <br>
+                  <h1>{{ $banner->heading }}</h1>
+                  <h2>{{ $banner->subheading}} <br>
                     Experience <br>
                     Agency</h2>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                    the industry's standard dummy text ever since the 1500s.</p>
+                  <p>{{ $banner->body }}</p>
                 </div>
                 <div class="col-8 bannerbtn">
                   <a href="#" class="btn viewBtn">

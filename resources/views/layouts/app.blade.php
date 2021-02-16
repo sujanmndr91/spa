@@ -27,7 +27,7 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/admin') }}">
+                <a class="navbar-brand" href="#">
                    Back End
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -44,7 +44,7 @@
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
                         @auth
-                        <a href="/userposts" class="px-3">Welcome {{ auth()->user()->name }}</a>
+                        <a href="#" class="px-3">Welcome {{ auth()->user()->name }}</a>
                         <form action="/logout" method="post" class="">
                             {{ @csrf_field() }}
                             <button type="submit">Logout</button>

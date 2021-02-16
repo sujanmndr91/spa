@@ -15,6 +15,9 @@ class CreateBannersTable extends Migration
     {
         Schema::create('banners', function (Blueprint $table) {
             $table->id();
+            $table->string('heading');
+            $table->string('subheading');
+            $table->text('body');
             $table->timestamps();
         });
     }
