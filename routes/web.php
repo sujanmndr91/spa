@@ -17,6 +17,20 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Register 
+Route::get('/register', 'Auth\RegisterController@index');
+Route::post('/register', 'Auth\RegisterController@create');
+
+// Login
+Route::get('/login', 'Auth\LoginController@index')->name('login');
+Route::post('/login', 'Auth\LoginController@store');
+
+// Logout
+Route::post('/logout', 'Auth\LoginController@logout');
+
+
+
+// Go to main index after login
 Route::get('/admin', function(){
     return view('admin.index');
-});
+})->middleware('auth');
